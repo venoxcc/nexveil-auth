@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Official Node.js SDK for Nexveil authentication and license verification",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test/test.js"
   },
@@ -16,7 +17,7 @@
     "drm",
     "whitelist"
   ],
-  "author": "NexVeil",
+  "author": "venox",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "devDependencies": {},
   "files": [
     "index.js",
+    "index.d.ts",
     "README.md",
     "LICENSE"
   ]

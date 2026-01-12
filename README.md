@@ -411,18 +411,18 @@ try {
   });
 } catch (error) {
   console.error(error.message);
-  // "NexVeil: secret1 must be a 64-character hex string"
+  // "Nexveil: secret1 must be a 64-character hex string"
 }
 ```
 
 Common errors:
-- `NexVeil: Configuration object is required`
-- `NexVeil: Missing required field: appName`
-- `NexVeil: secret1 must be a 64-character hex string`
-- `NexVeil: License key must be a non-empty string`
-- `NexVeil: HWID not set. Enable autoHWID or provide customHWID`
-- `NexVeil: Server signature verification failed - response may be tampered`
-- `NexVeil: KEY_EXPIRED - License key has expired`
+- `Nexveil: Configuration object is required`
+- `Nexveil: Missing required field: appName`
+- `Nexveil: secret1 must be a 64-character hex string`
+- `Nexveil: License key must be a non-empty string`
+- `Nexveil: HWID not set. Enable autoHWID or provide customHWID`
+- `Nexveil: Server signature verification failed - response may be tampered`
+- `Nexveil: KEY_EXPIRED - License key has expired`
 
 ## How It Works
 
@@ -457,7 +457,7 @@ Type definitions coming soon! For now, you can create `index.d.ts`:
 
 ```typescript
 declare module 'nexveil-auth' {
-  interface NexVeilConfig {
+  interface NexveilConfig {
     appName: string;
     secret1: string;
     secret2: string;
@@ -489,7 +489,7 @@ declare module 'nexveil-auth' {
   }
 
   class NexveilAuth {
-    constructor(config: NexVeilConfig);
+    constructor(config: NexveilConfig);
     verify(key: string): Promise<VerificationResult>;
     verifyOrThrow(key: string): Promise<VerificationResult>;
     getHWID(): string;
@@ -506,9 +506,9 @@ declare module 'nexveil-auth' {
 
 ## Support
 
-- **Documentation:** https://docs.nexveil.com
+- **Documentation:** https://docs.nexveil.net
 - **Issues:** https://github.com/nexveil/nexveil-auth/issues
-- **Discord:** https://discord.gg/nexveil
+- **Discord:** https://discord.gg/NvjjV7CCG7
 
 ## License
 

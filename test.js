@@ -1,4 +1,4 @@
-const NexveilAuth = require('nexveil-auth');
+const NexveilAuth = require('./index.js');
 
 async function main() {
   const auth = new NexveilAuth({
@@ -14,6 +14,9 @@ async function main() {
     console.log('✅ Licensed!');
   }
   console.log(result)
+  console.log(auth.getHWID())
+  const hwid = auth.generateHWID();
+console.log('Generated HWID:', hwid);
 }
 
 main();
