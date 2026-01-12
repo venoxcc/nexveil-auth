@@ -1,0 +1,35 @@
+{
+  "name": "nexveil-auth",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for Nexveil authentication and license verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "nexveil",
+    "authentication",
+    "license",
+    "verification",
+    "hwid",
+    "security",
+    "drm",
+    "whitelist"
+  ],
+  "author": "NexVeil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nexveil/nexveil-auth"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
