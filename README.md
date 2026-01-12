@@ -507,7 +507,7 @@ declare module 'nexveil-auth' {
 ## Support
 
 - **Documentation:** https://docs.nexveil.net
-- **Issues:** https://github.com/nexveil/nexveil-auth/issues
+- **Issues:** https://github.com/venoxcc/nexveil-auth/issues
 - **Discord:** https://discord.gg/NvjjV7CCG7
 
 ## License

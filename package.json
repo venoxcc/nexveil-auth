@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nexveil/nexveil-auth"
+    "url": "https://github.com/venoxcc/nexveil-auth"
   },
   "engines": {
     "node": ">=14.0.0"
